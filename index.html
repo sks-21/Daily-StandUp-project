@@ -5,24 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Daily StandUp Project</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <div class="element">
-        <div>What I did: </div>
-      <textarea name="" id="input-1" cols="30" rows="5"></textarea>
+      <div>What I did:</div>
+      <textarea name="" id="input1" cols="30" rows="5"></textarea>
     </div>
 
     <div class="element">
-      <div>What I will do: </div>
-      <textarea name="" id="input-2" cols="30" rows="5"></textarea>
+      <div>What I will do:</div>
+      <textarea name="" id="input2" cols="30" rows="5"></textarea>
     </div>
 
     <div class="element">
-      <div>Blockers: </div>
-      <textarea name="" id="input-3" cols="30" rows="5"></textarea>
+      <div>Blockers:</div>
+      <textarea name="" id="input3" cols="30" rows="5"></textarea>
     </div>
 
-    <button>Get String!</button>
+    <button class="genstring">Get String!</button>
+
+    <textarea name="output" id="output" class="output"></textarea>
+    
+    <button class="copystring">Copy String</button>
+    <button class="clearstring">Clear String</button>
+
+    <script src="app.js"></script>
   </body>
 </html>
